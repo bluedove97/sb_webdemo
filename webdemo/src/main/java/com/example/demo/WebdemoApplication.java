@@ -15,13 +15,13 @@ public class WebdemoApplication implements InitializingBean{
 
 	@PostConstruct
 	public void test22() {
-		System.out.println("어느시점인지 보자 @PostConstruct");
+		System.out.println("어느시점인지 보자! @PostConstruct");
 	}
 	
 	@Override
 	public void afterPropertiesSet() throws Exception {
 		
-		System.out.println("어느시점인지 보자 @afterPropertiesSet");
+		System.out.println("어느시점인지 보자!! @afterPropertiesSet");
 	}
 
 }
