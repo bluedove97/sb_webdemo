@@ -22,7 +22,6 @@ public class WebdemoApplication implements InitializingBean{
 	public void afterPropertiesSet() throws Exception {
 		
 		System.out.println("어느시점인지 보자 @afterPropertiesSet");
-
 	}
 
 }
